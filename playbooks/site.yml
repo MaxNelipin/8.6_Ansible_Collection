@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  tasks:
+  - name: run mkfile_module
+    import_role:
+      name: maxnelipin.yandex_cloud_elk.ynd_cloud_elk
+    vars:
+      path: "/home/maxn/test.txt"
+      content: "From playbook and collection"
+
+  #roles:
+    #- { role: maxnelipin.yandex_cloud_elk.ynd_cloud_elk, path: "/home/maxn/test.txt", content: "From playbook and collection" }
