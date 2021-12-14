@@ -1,1 +1,3 @@
-# 8.6_Ansible_Collection
+# Ansible Collection - maxnelipin.yandex_cloud_elk
+
+Documentation for the collection.
